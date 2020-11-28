@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(44, 41, 41);
+}
+.heading {
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bolder;
+}
+h3 {
+  color: #dfdfdf;
+  font-weight: bolder;
+}
+
+html {
+  height: 100%;
+}
+
+.form {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 650px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(10, 10, 10, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.button {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #d4b6b6;
+}
